@@ -1,0 +1,268 @@
+.homeimage{
+    padding:1px;
+    background-image: url(../IMAGES/2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.h1{
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: xx-large;
+    padding-left: 700px;
+
+}
+
+.homebutton{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 30px;
+    color: white;
+    padding-left: 700px;
+}
+
+.a1{
+    background-color: black;
+    text-align: right;
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+    padding: 6px;
+}
+    
+    
+.image1{
+    padding: 20px; 
+}
+
+.para{
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+}
+.div1{
+    background-color: black;
+}
+
+/* mens */
+.img1{
+    background-color:white;
+    border-radius:10px;
+    padding:10px;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222); */
+}
+.img2{
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background-color:white; */
+    border-radius: 10px; 
+    margin-bottom: 100pxs;
+}
+.product1{
+    padding-right: 100px;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    font-size:large;
+}
+ /* .hoodie{
+    text-align: justify;
+    
+ } */
+
+.a2{
+    background-color: black;
+    text-align: right;
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+    padding: 6px;
+}
+
+/* about */
+
+.about{
+    padding: 50px;
+    background-image: url(../IMAGES/abt.png); 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+ 
+}
+
+.aboutpara{
+    font-size: x-large;
+}
+
+.s1{
+    margin-left: 20px;
+}
+
+.h2{
+    padding: 20px;
+    background-color:white;
+    color:black;
+}
+
+.p2{
+    background-color:white;
+    color:black;
+    text-align: justify;
+    font-family: 'Lora', serif;
+
+}
+
+.i1{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+
+/* signup */
+
+.t1{
+    text-align: center;
+}
+
+/* signin */
+
+.signimage{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 700px;
+    background-image: url(../IMAGES/signin.png);
+    padding:1px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+/* women */
+
+.women1{
+    margin: 30px;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    font-size:large;
+
+}
+
+/* kids */
+.kids1{
+    text-align: justify;
+    font-family: 'Lora', serif;
+    font-size:large;
+    margin: 30px;
+}
+
+
+/* blank */
+
+/* .subjects{
+    display: flex;
+    gap: 10px; */
+    /* justify-content:flex-start;
+    align-items:flex-start ; */
+    /* justify-content: center;
+    align-items:flex-start; */
+    /* justify-content: flex-end;
+     align-items: flex-start;  */
+     /* justify-content:flex-start;
+     align-items: center;*/
+     /* justify-content: center;
+     align-items: center; */
+     /* justify-content: flex-end;
+     align-items: center; */
+     /* justify-content: flex-start;
+     align-items: flex-end; */
+     /* justify-content: center;
+     align-items:flex-end; */
+     /* justify-content: flex-end;
+     align-items: end;
+     height: 700px;  
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blank grid */
+
+.subjects{
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 300px 200px 1fr;
+    gap: 10px;
+    
+    
+    
+}
+
+.sub1,.sub2,.sub3,.sub4,.sub5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.sub1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: red;
+    grid-column: span 2;
+    order: 4;
+}
+.sub2{
+    background-color: blue;
+    grid-column: span 3;
+    order: 5;
+}
+.sub3{
+    background-color: aqua;
+    order: 2;
+}
+
+.sub4{
+    background-color:gray;
+    grid-column: span 2;
+    order: 1;
+}
+.sub5{
+    background-color: crimson;
+    order: 3;
+}
+
+
+
