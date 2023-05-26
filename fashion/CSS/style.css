@@ -23,7 +23,8 @@
     align-items:center;
     height: 30px;
     color: white;
-    padding-left: 700px;
+    padding-left:700px;
+    
 }
 
 .a1{
@@ -128,23 +129,43 @@
 
 /* signup */
 
+.signup{
+    background-image: url(../IMAGES/signup.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    /* border: 5px black double; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+
 .t1{
     text-align: center;
+    border: 2px black double;
 }
 
 /* signin */
 
-.signimage{
-    display: flex;
+.signinimage{
+    background-image: url(../IMAGES/sSignin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
     justify-content:center;
     align-items: center;
     height: 700px;
-    background-image: url(../IMAGES/signin.png);
+    gap: 10px;
     padding:1px;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    /* height: 100vh; */
+
+    
 }
+
+
+.t2{ 
+    border: 5px black double;
+} 
 
 /* women */
 
